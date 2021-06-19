@@ -1,0 +1,11 @@
+> db.people.remove( { hight: { $gt: "190" } } )
+WriteResult({ "nRemoved" : 0 })
+> db.people.update(
+{ city: "Moscow" },
+{ $set:
+{
+location:{city:"Moskwa"}
+}
+}
+)
+WriteResult({ "nMatched" : 0, "nUpserted" : 0, "nModified" : 0 })
