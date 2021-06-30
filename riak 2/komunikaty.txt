@@ -1,0 +1,6 @@
+### wypisanie dokumentu ###
+{"body": "Bylo cieple lato, choc czasem padalo", "author": "E. L. James", "isbn": "978-1-61213-028-6", "copies_owned": 3, "title": "50 Shades of Grey"}
+### modyfikacja dokumentu ###
+{"body": "Bylo cieple lato, choc czasem padalo", "title": "50 twarzy Geja", "isbn": "978-1-61213-028-6", "copies_owned": 3, "author": "E. L. James"}
+### Kasowanie z bazy ###
+False
