@@ -1,0 +1,57 @@
+1) 	HTTP/1.1 204 No Content
+	Vary: Accept-Encoding
+	Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+	Date: Fri, 02 Jul 2021 22:23:44 GMT
+	Content-Type: application/json
+	Content-Length: 0
+2) 	HTTP/1.1 200 OK
+	X-Riak-Vclock: a85hYGBgzGDKBVI8ypz/ft6vXWvGwOCnlMGUyJjHyrCCL+QWXxYA
+	Vary: Accept-Encoding
+	Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+	Link: </buckets/s23456>; rel="up"
+	Last-Modified: Fri, 02 Jul 2021 22:26:48 GMT
+	ETag: "5ot68P6St7pJqp263wRMNv"
+	Date: Fri, 02 Jul 2021 22:27:40 GMT
+	Content-Type: application/json
+	Content-Length: 60
+
+{'brand':'BMW','model':'323','year':'1999','color':'silver'}
+3) 	HTTP/1.1 204 No Content
+	Vary: Accept-Encoding
+	Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+	Date: Fri, 02 Jul 2021 22:28:13 GMT
+	Content-Type: application/json
+	Content-Length: 0
+4) 	HTTP/1.1 204 No Content
+	Vary: Accept-Encoding
+	Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+	Date: Fri, 02 Jul 2021 22:28:32 GMT
+	Content-Type: application/json
+	Content-Length: 0
+5) 	HTTP/1.1 204 No Content
+	Vary: Accept-Encoding
+	Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+	Date: Fri, 02 Jul 2021 22:28:52 GMT
+	Content-Type: application/json
+	Content-Length: 0
+6) 	HTTP/1.1 204 No Content
+	Vary: Accept-Encoding
+	Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+	Date: Fri, 02 Jul 2021 22:29:15 GMT
+	Content-Type: application/json
+	Content-Length: 0
+7) 	HTTP/1.1 404 Object Not Found
+	Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+	Date: Fri, 02 Jul 2021 22:30:24 GMT
+	Content-Type: text/plain
+	Content-Length: 10
+
+	not found
+8)	HTTP/1.1 405 Method Not Allowed
+	Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+	Date: Fri, 02 Jul 2021 22:30:50 GMT
+	Content-Type: text/html
+	Content-Length: 177
+	Allow: GET, HEAD
+
+<html><head><title>405 Method Not Allowed</title></head><body><h1>Method Not Allowed</h1>Method Not Allowed<p><hr><address>mochiweb+webmachine web server</address></body></html>
